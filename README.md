@@ -2,7 +2,7 @@
 
 关于程序
 =========
-GFB(get from billbill)是一个基于python的爬虫程序，它运用了selenium库，这代表使用者必须安装此库。
+GFB(get from billbill)是一个基于python的爬虫程序，它运用了selenium库，这代表使用者必须安装对于浏览器内核。
 ----
 
 作者目前初中，很多地方不够优秀，请大家多多包涵
