@@ -1,0 +1,7 @@
+setup.py
+gfb/__init__.py
+gfb/gfb.py
+gfb1.egg-info/PKG-INFO
+gfb1.egg-info/SOURCES.txt
+gfb1.egg-info/dependency_links.txt
+gfb1.egg-info/top_level.txt
