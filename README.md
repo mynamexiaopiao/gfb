@@ -10,8 +10,15 @@ GFB(get from billbill)是一个基于python的爬虫程序。
 
 使用
 ==========
+驱动
+---
 爬虫运用selenium使用chrome驱动，驱动安装使用方法https://zhuanlan.zhihu.com/p/366757549
 调用代码示例请使用方法.txt
+
+下载和安装
+-
+下载项目文件./dist中的压缩包。打开cmd切换到压缩包所在文件夹，输入[ pip install 文件名]安装
+
 
 问题
 ======
