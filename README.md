@@ -23,7 +23,15 @@ GFB(get from billbill)是一个基于python的爬虫程序。
 问题
 ======
 Q:为啥不用其他爬虫库?
+
 A:billbill是动态网站,程序实现是输入BV号获取信息，js逆向也未有共通性，所以使用selenium
 
+
 Q:咋不用无头浏览器?
+
 A:作者忘了awa
+
+
+Q:为啥不上线pypi
+
+A:作者不会搞2fa
