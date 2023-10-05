@@ -1,8 +1,15 @@
-获取对应视频播放量，返回值为int
-getSting("BV号").get()
+from gfb import gfb
+获取对应视频播放量，获取方式有view(播放量),share(分享),like(点赞),coin(投币),collect(收藏)，返回值为int
+gfb.getSting("BV号","获取方式").get()
 
 定时爬取数据，the_time为时间,times为次数，返回值为列表
-view_list_get(the_time,times)
+gfb.getSting("BV号","获取方式").view_list_get(the_time,times)
 
 创建折线统计图view_list为x轴，tim为时间，ti为次数（建议与上面的搭配使用）
-view_list_linechart(view_list,tim,ti)
+gfb.view_list_linechart(view_list,tim,ti)
+
+获取billbill热门    https://www.bilibili.com/v/popular/rank/all/
+返回值为字典{作者:作品名,.....}
+gfb.gethot()
+
+
